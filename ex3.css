@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {background-color: white;}
+header {color:black; margin:60px auto; text-align:center; font-family: 'the_constellation_of_heraclIt'; font-size:180px; font-weight:normal; font-style:normal;}
+footer {position:fixed; bottom:-30px; width:150px; text-align:left; padding:5px;}
+
+section#blocks {width: 12in; margin: 60px auto;}
+
+section#blocks ul {}
+
+section#blocks li {list-style-type: none; height: 1in; width: 2.2in; text-align: center; 
+	font-size:45px; font-family:avenir; letter-spacing:2px; color:white; background-color: #330c00; 
+	display:inline-block; position:relative; border-radius: 50px; margin:5px;
+	box-shadow: 3px 3px 3px #BCDD5A; padding-top:20px;}
+	
+a {font-size: 40px; color: white; text-decoration: none;}
+a:hover {color:yellow;}
+li:hover {color: white;}
+.link {position:relative;}
+
+.tip {position: absolute;
+  margin-top: 40px;
+  margin-left:20px;
+  background-color:#ffc199;
+  width:400px;
+  height:220px;
+  overflow:hidden;
+  border-radius:30px; padding:20px;}
+  
+.tip p {color:black; font-family:avenir; font-size:15px;}
+
+/*.seven {color:red;}
+.eight {color:blue;}
+.nine {color:green;}
+.ten {color:purple;}
+.eleven {color:white;}*/
+
+@font-face {
+    font-family: 'the_constellation_of_heraclIt';
+    src: url('../ex1/fonts/the_constellation_of_heracles-webfont.eot');
+    src: url('../ex1/fonts/the_constellation_of_heracles-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../ex1/fonts/the_constellation_of_heracles-webfont.woff2') format('woff2'),
+         url('../ex1/fonts/the_constellation_of_heracles-webfont.woff') format('woff'),
+         url('../ex1/fonts/the_constellation_of_heracles-webfont.ttf') format('truetype'),
+         url('../ex1/fonts/the_constellation_of_heracles-webfont.svg#the_constellation_of_heraclIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
