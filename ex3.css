@@ -9,7 +9,7 @@ body {background-color: white;}
 header {color:black; margin:60px auto; text-align:center; font-family: 'the_constellation_of_heraclIt'; font-size:180px; font-weight:normal; font-style:normal;}
 footer {position:fixed; bottom:-30px; width:150px; text-align:left; padding:5px;}
 
-section#blocks {width: 12in; margin: 60px auto;}
+section#blocks {width: 12in; margin: 60px auto; position:relative; top:30px;}
 
 section#blocks ul {}
 
@@ -24,21 +24,39 @@ li:hover {color: white;}
 .link {position:relative;}
 
 .tip {position: absolute;
-  margin-top: 40px;
-  margin-left:20px;
+  margin-top: -160px;
+  margin-left:10px;
   background-color:#ffc199;
-  width:400px;
-  height:220px;
   overflow:hidden;
   border-radius:30px; padding:20px;}
   
 .tip p {color:black; font-family:avenir; font-size:15px;}
+
+.mainText {position: absolute;
+  margin-top: 40px;
+  margin-left:20px;
+  background-color:none;
+  overflow:hidden;
+  border-radius:30px; padding:20px;}
+  
+.mainText p {color:#ff6533; font-family:arial; font-size:10px;}
 
 /*.seven {color:red;}
 .eight {color:blue;}
 .nine {color:green;}
 .ten {color:purple;}
 .eleven {color:white;}*/
+
+#workText {width:150px; height:30px; }
+#restText {width:150px; height:30px; }
+#eatText {width:150px; height:30px; }
+#smileText {width:150px; height:30px; }
+
+#workMain {width:350px; height:200px; left:-110px;}
+#restMain {width:250px; height:100px; left:-60px;}
+#eatMain {width:250px; height:100px; left:-50px;}
+#smileMain {width:350px; height:300px; left:-100px;}
+
 
 @font-face {
     font-family: 'the_constellation_of_heraclIt';
